@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A RESTful API for Douglas Lab Information Management System.",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "keywords": [
     "swagger"
   ],
