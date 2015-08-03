@@ -33,6 +33,19 @@ module.exports.itemsPost = function itemsPost (req, res, next) {
     res.end();
 };
 
+module.exports.itemsIdTruePut = function itemsIdTruePut (req, res, next) {
+  
+
+  var result = ItemsEndpoint.itemsIdTruePut();
+
+  if(typeof result !== 'undefined') {
+    res.setHeader('Content-Type', 'application/json');
+    res.end(JSON.stringify(result || {}, null, 2));
+  }
+  else
+    res.end();
+};
+
 module.exports.itemsIdGet = function itemsIdGet (req, res, next) {
   
 
@@ -63,19 +76,6 @@ module.exports.itemsIdDelete = function itemsIdDelete (req, res, next) {
   
 
   var result = ItemsEndpoint.itemsIdDelete();
-
-  if(typeof result !== 'undefined') {
-    res.setHeader('Content-Type', 'application/json');
-    res.end(JSON.stringify(result || {}, null, 2));
-  }
-  else
-    res.end();
-};
-
-module.exports.itemsIdTruePut = function itemsIdTruePut (req, res, next) {
-  
-
-  var result = ItemsEndpoint.itemsIdTruePut();
 
   if(typeof result !== 'undefined') {
     res.setHeader('Content-Type', 'application/json');

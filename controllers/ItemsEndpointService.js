@@ -14,6 +14,13 @@ exports.itemsPost = function() {
 
   
 }
+exports.itemsIdTruePut = function() {
+
+  var examples = {};
+  
+
+  
+}
 exports.itemsIdGet = function() {
 
   var examples = {};
@@ -29,13 +36,6 @@ exports.itemsIdPut = function() {
   
 }
 exports.itemsIdDelete = function() {
-
-  var examples = {};
-  
-
-  
-}
-exports.itemsIdTruePut = function() {
 
   var examples = {};
   
