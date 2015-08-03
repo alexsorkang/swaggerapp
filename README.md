@@ -1,3 +1,3 @@
 # swaggerapp
-This is the swaggar documentation for the douglas lab lab-api.
+This is the swaggar documentation for the douglas lab lab-api. \n
 To run: 
