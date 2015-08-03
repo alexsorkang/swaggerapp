@@ -1,6 +1,6 @@
 # swaggerapp
 This is the swaggar documentation for the douglas lab lab-api. <br>
-To run: <br>
+To run this application: <br>
 1. Clone this <br>
 2. Make sure you have node installed <br>
 then in your directory with this app: <br>
